@@ -1,5 +1,5 @@
 # Gnomer
-A World of Warcraft Classic addon.
+> A World of Warcraft Classic addon.
 
 ## General information
 Enhances the experience of playing as a Gnome by giving you access to a large sum of Gnome jokes.
