@@ -22,7 +22,7 @@ end
 -- Function for registering slash commands
 function RegisterSlashCommands()
     -- Slash commands for gnome stuff
-    SLASH_GNOME1 = '/gnome'
+    SLASH_GNOME1 = '/gnomer'
     -- Built in slash commander handler
     SlashCmdList.GNOME = function(msg)
         -- Split the command and arhuments from the message
@@ -41,7 +41,7 @@ function RegisterSlashCommands()
             help()
         else
             -- Unknown command, show the user a list of commands
-            help()
+            Print('Unknown command - Use /gnomer help , for a list of commands')
         end
     end
 end
@@ -52,7 +52,7 @@ function getRandomGnomer(db)
 end
 -- Function chosing a random gnome joke
 function getGnomed()
-    -- Amount of Gnome jokes provied so far
+    -- Amount of Gnome jokes provied by the player so far
     local jokes = table.getn(GnomeDB)
     -- Check if there's enough Gnome related jokes before continuing
     if jokes < 2 then
@@ -69,8 +69,7 @@ function getGnomed()
     -- Our previous number gets updated
     previousGnome = randomGnome
     -- Send a chat message with the chosen Gnome joke
-    print(GnomeDB[randomGnome])
-    -- SendChatMessage(GnomeDB[randomGnome], defaultChannel, 'COMMON', 1)
+    SendChatMessage(GnomeDB[randomGnome], defaultChannel, 'COMMON', 1)
 end
 -- Function to add a new Gnome joke
 function addGnomer(str)
@@ -91,10 +90,10 @@ function help()
     -- Whitespace
     print(' ')
     -- Custom print
-    Print('Here\'s a list commands:')
-    Print('|cff00cc66/gnome add <string>|r - Add a joke to the Gnomer list.')
-    Print('|cff00cc66/gnome random|r - Say a random Gnome related joke out.')
-    Print('|cff00cc66/gnome help|r - Shows the command list.')
+    Print('Here\'s a list of commands:')
+    Print('|cff00cc66/gnomer add <string>|r - Add a joke to the Gnomer list.')
+    Print('|cff00cc66/gnomer random|r - Say a random Gnome related joke out loud.')
+    Print('|cff00cc66/gnomer help|r - Shows the command list.')
     -- Whitespace
     print(' ')   
 end
@@ -108,4 +107,3 @@ local eventFrame = CreateFrame('Frame')
 eventFrame:RegisterEvent('ADDON_LOADED')
 -- Register a script handler that will be called when OnEvent is called
 eventFrame:SetScript('OnEvent', eventHandler)
-
