@@ -1,0 +1,13 @@
+## Interface: 11302
+## Title: |cFFFFFFFFGnomer|r|cFF00FF00 v1.1|r|cFFFF0000 Alpha|r
+## Version: 1.1 Alpha
+## Notes: Enhances the experience of playing as a Gnome.
+## Author: Simon S. Sørensen
+## DefaultState: enabled
+## SavedVariables: GnomeDB
+
+# Main XML file for Gnomer
+Gnomer.xml
+
+# Main Lua file for Gnomer
+Gnomer.lua

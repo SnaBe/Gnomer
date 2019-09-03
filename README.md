@@ -20,4 +20,6 @@ Third, drag the downloaded zip file to that directory and extract the file conte
 
 Boom! You'll now be able out Gnome your fellow players!
 
+## Additional information
+
 **Note:** The addon is only active when you're playing as a Gnome. 
