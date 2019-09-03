@@ -14,11 +14,15 @@ Second navigate to where your World of Warcraft Classic is installed.
 
 In my case it is: `C:\Program Files (x86)\World of Warcraft\_classic_\Interface\AddOns\`
 
-Third, drag the downloaded zip file to that directory and extract the file contents.
+Third, drag the downloaded zip file to that directory above and extract the file contents.
 
 **Note:** If you have WoW running you'll need to restart it.
 
 Boom! You'll now be able out Gnome your fellow players!
+
+## So how does it work?
+
+Simple type /gnome help in a chat window and the addon will guide you trough its process.
 
 ## Additional information
 

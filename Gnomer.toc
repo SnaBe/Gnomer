@@ -1,6 +1,6 @@
 ## Interface: 11302
-## Title: |cFFFFFFFFGnomer|r|cFF00FF00 v1.1|r|cFFFF0000 Alpha|r
-## Version: 1.1 Alpha
+## Title: |cFFFFFFFFGnomer|r|cFF00FF00 v1.2|r|cFFFF0000 Alpha|r
+## Version: 1.2 Alpha
 ## Notes: Enhances the experience of playing as a Gnome.
 ## Author: Simon S. Sørensen
 ## DefaultState: enabled

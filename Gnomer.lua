@@ -15,7 +15,7 @@ function eventHandlers.ADDON_LOADED(name)
     -- Only enable the addon for Gnomes
     if race ~= 'Gnome' then return end
     -- Print a message to the player
-    print('Gnomer loaded & enabled.')
+    Print('Loaded & enabled.')
     -- Register our slash commands
     RegisterSlashCommands()
 end
