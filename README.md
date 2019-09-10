@@ -9,7 +9,7 @@ A Classic World of Warcraft addon for all you Gnomes who are in need of quick ac
 Only works for Gnomes.
 
 ## Usage
-/gnome help in chat to bring up the command list.
+/gnomer help in chat to bring up the command list.
 
 ![screenshot](https://i.imgur.com/FvzVqG0.jpg)
 
@@ -17,3 +17,5 @@ Only works for Gnomes.
 * ~~The addon should only be active for Gnomes.~~
 * ~~Players can enter a command to get a random joke said out loud.~~
 * ~~Players can add their own jokes to the addon using a command.~~
+* Support for multiple chat frames, including party, raid and so on.
+* Players should be able to remove jokes / items from the list.
